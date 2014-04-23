@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery>
+  <image imageURL="images/l-1.jpg"
+	thumbURL="thumbs/l-1.jpg"
+	linkURL="images/l-1.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Steven/Documents/school/website v2/italian/2/images/l-1.jpg"
+
+>
+    <title><![CDATA[l-1]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/l-2.jpg"
+	thumbURL="thumbs/l-2.jpg"
+	linkURL="images/l-2.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Steven/Documents/school/website v2/italian/2/images/l-2.jpg">
+    <title><![CDATA[l-2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/l.jpg"
+	thumbURL="thumbs/l.jpg"
+	linkURL="images/l.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Steven/Documents/school/website v2/italian/2/images/l.jpg">
+    <title><![CDATA[l]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

@@ -1,0 +1,151 @@
+/* Set all parents to full height */
+html, body, 
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section { 
+    height: 100%; 
+}
+ 
+
+/* The nav is fixed on the right side  and we center it by translating it 50% 
+(we don't know it's height so we can't use the negative margin trick) */
+.cbp-fbscroller > nav {
+    position: fixed;
+    z-index: 9999;
+    right: 100px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+ 
+.cbp-fbscroller > nav a {
+    display: block;
+    position: relative;
+    color: transparent;
+    height: 50px;
+}
+ 
+/*.cbp-fbscroller > nav a:after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+ */
+/*.cbp-fbscroller > nav a:hover:after {
+    background: rgba(255,255,255,0.6);
+}
+ 
+.cbp-fbscroller > nav a.cbp-fbcurrent:after {
+     background: #fff;
+}
+ */
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+#italian1 {
+    top:110px;
+    background-image: url(images/Mylittle.jpg);
+    z-index: 1;
+}
+#italian2 {
+    top:110px;
+    background-image: url(images/hotpizza.jpg);
+    z-index: 1;
+}
+#italian3 {
+    top:110px;
+    background-image: url(images/antos.jpg);
+    z-index: 1;
+}
+ #hispanic1 {
+    top:110px;
+    z-index: 1;
+
+    background-image: url(images/oct.jpg);
+}
+#hispanic2 {
+    top:110px;
+
+    background-image: url(images/yummytaco.jpg);
+    z-index: 1;
+}
+#hispanic3 {
+    top:110px;
+
+    background-image: url(images/Fresco-Tortilla.jpg);
+    z-index: 1;
+}
+ #deli1 {
+    top:110px;
+    z-index: 1;
+
+    background-image: url(images/hotbagels.jpg);
+}
+#deli2 {
+    top:110px;
+    z-index: 1;
+
+    background-image: url(images/delight.jpg);
+}
+#deli3 {
+    top:110px;
+
+    background-image: url(images/skyline.jpg);
+    z-index: 1;
+}
+ #asian1 {
+    top:110px;
+
+    background-image: url(images/gfd.jpg);
+        z-index: 1;
+
+}
+#asian2 {
+    top:110px;
+
+    background-image: url(images/national.jpg);
+    z-index: 1;
+}
+#asian3 {
+    top:110px;
+
+    background-image: url(images/andys.jpg);
+    z-index: 1;
+}
+ #misc1 {
+    top:110px;
+
+    background-image: url(images/happydays.jpg);
+        z-index: 1;
+
+}
+#misc2 {
+    top:110px;
+
+    background-image: url(images/parkplaza.jpg);
+    z-index: 1;
+}
+#misc3 {
+    top:110px;
+
+    background-image: url(images/apollo.jpg);
+    z-index: 1;
+}
+
+#homeBackground {
+    top:110px;
+    background-image: url(images/Mylittle.jpg);
+        z-index: 1;
+
+}
